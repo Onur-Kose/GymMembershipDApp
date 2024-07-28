@@ -58,19 +58,4 @@ Kontrat, Scroll Sepolia testnet üzerinde dağıtılmıştır. Aşağıda detayl
 - **ethers.js**: Ethereum blockchain ile etkileşim kurmak için kullanılır.
 - **web3.js**: Akıllı kontratlar ile iletişim kurmak için kullanılır.
 
-### Frontend Yapısı
-Frontend yapısının oluşturulmuş ana klasör yapısı şu şekildedir:
-GymMembershipFrontend/
-│
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-│
-├── public/
-│ ├── index.html
-│ └── ...
-│
-└── package.json
+
