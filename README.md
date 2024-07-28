@@ -45,3 +45,8 @@ Proje, Solidity ile yazılmıştır ve Scroll Sepolia testnet üzerinde çalış
 Kontrat, Scroll Sepolia testnet üzerinde dağıtılmıştır. Aşağıda detaylar verilmiştir:
 
 - **Kontrat Adresi**: `0x7ca0d0088db3195417e35d9d072d4b4373679820`
+
+
+### Frontent 
+-Frontent için an klasör yapısı oluşturulmuş fakat henüz tamamlnamamıştır.
+-Daha iyi yükleme süreleri ve rectif yapısı sebbeiyle reac.js tercih etilmiştir. 
