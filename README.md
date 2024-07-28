@@ -48,5 +48,5 @@ Kontrat, Scroll Sepolia testnet üzerinde dağıtılmıştır. Aşağıda detayl
 
 
 ## Frontent 
--Frontent için an klasör yapısı oluşturulmuş fakat henüz tamamlnamamıştır.
--Daha iyi yükleme süreleri ve rectif yapısı sebbeiyle reac.js tercih etilmiştir. 
+- Frontent için an klasör yapısı oluşturulmuş fakat henüz tamamlnamamıştır.
+- Daha iyi yükleme süreleri ve rectif yapısı sebbeiyle reac.js tercih etilmiştir. 
