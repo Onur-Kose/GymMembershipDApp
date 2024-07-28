@@ -47,6 +47,6 @@ Kontrat, Scroll Sepolia testnet üzerinde dağıtılmıştır. Aşağıda detayl
 - **Kontrat Adresi**: `0x7ca0d0088db3195417e35d9d072d4b4373679820`
 
 
-### Frontent 
+## Frontent 
 -Frontent için an klasör yapısı oluşturulmuş fakat henüz tamamlnamamıştır.
 -Daha iyi yükleme süreleri ve rectif yapısı sebbeiyle reac.js tercih etilmiştir. 
