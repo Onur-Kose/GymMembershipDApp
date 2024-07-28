@@ -1,0 +1,659 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_machine",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_weightLifted",
+						"type": "uint256"
+					}
+				],
+				"name": "addExercise",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gym",
+						"type": "address"
+					}
+				],
+				"name": "addVisit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gym",
+						"type": "address"
+					}
+				],
+				"name": "calculateGymFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getActiveMembers",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllGyms",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllMembers",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getExercise",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					}
+				],
+				"name": "getMemberInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					}
+				],
+				"name": "getMemberSubscriptions",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getVisit",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "gymAddresses",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "gyms",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "dailyFee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "weeklyFee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "monthlyFee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "quarterlyFee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "semiAnnualFee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "annualFee",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct GymMembership.Fee",
+						"name": "fees",
+						"type": "tuple"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalUsers",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalRating",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "reviewCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "latitude",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "longitude",
+								"type": "string"
+							}
+						],
+						"internalType": "struct GymMembership.Location",
+						"name": "location",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isGym",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isMember",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_member",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_weight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
+					}
+				],
+				"name": "manualAddMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "memberAddresses",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "weight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "height",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "exerciseCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "visitCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isManual",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gym",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_rating",
+						"type": "uint256"
+					}
+				],
+				"name": "rateGym",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dailyFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "weeklyFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "monthlyFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quarterlyFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "semiAnnualFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "annualFee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "latitude",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "longitude",
+						"type": "string"
+					}
+				],
+				"name": "registerGym",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_weight",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_height",
+						"type": "uint256"
+					}
+				],
+				"name": "registerMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "gymAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "duration",
+						"type": "uint256"
+					}
+				],
+				"name": "subscribeGym",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawEarnings",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GymMembership.sol": "GymMembership"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GymMembership.sol": {
+			"keccak256": "0xa862c9bab91f9d3045676713791f6b5ad3e210ad14ae8edc002aef7b5b9ced9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32228b8b7fa07a127ed26b8f95f0b2b399ea247a0728d5ef75b1d25119d588ae",
+				"dweb:/ipfs/QmPoeq3Gfcn4aGxMTVvo8XcvrR4SbX7REZMgf4LFxehknH"
+			]
+		}
+	},
+	"version": 1
+}
