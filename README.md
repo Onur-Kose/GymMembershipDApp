@@ -47,6 +47,30 @@ Kontrat, Scroll Sepolia testnet üzerinde dağıtılmıştır. Aşağıda detayl
 - **Kontrat Adresi**: `0x7ca0d0088db3195417e35d9d072d4b4373679820`
 
 
-## Frontent 
-- Frontent için an klasör yapısı oluşturulmuş fakat henüz tamamlnamamıştır.
-- Daha iyi yükleme süreleri ve rectif yapısı sebbeiyle reac.js tercih etilmiştir. 
+## Frontend
+- Frontend için ana klasör yapısı oluşturulmuş fakat henüz tamamlanmamıştır.
+- Daha iyi yükleme süreleri ve reaktif yapısı sebebiyle React.js tercih edilmiştir.
+- Web3 etkileşimleri için `ethers.js` kütüphanesi kullanılacaktır.
+- Akıllı kontrat ile iletişim kurmak için `web3.js` kütüphanesi de kullanılacaktır.
+
+### Kullanılan Kütüphaneler
+- **React.js**: Kullanıcı arayüzünü oluşturmak için tercih edilmiştir.
+- **ethers.js**: Ethereum blockchain ile etkileşim kurmak için kullanılır.
+- **web3.js**: Akıllı kontratlar ile iletişim kurmak için kullanılır.
+
+### Frontend Yapısı
+Frontend yapısının oluşturulmuş ana klasör yapısı şu şekildedir:
+GymMembershipFrontend/
+│
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+│
+├── public/
+│ ├── index.html
+│ └── ...
+│
+└── package.json
